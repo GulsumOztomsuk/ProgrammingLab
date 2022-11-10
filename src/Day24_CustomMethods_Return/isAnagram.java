@@ -3,6 +3,10 @@ package Day24_CustomMethods_Return;
 import java.util.Arrays;
 
 public class isAnagram {
+    public static void main(String[] args) {
+
+        System.out.println(isAnagram("mahmut","mamhut"));
+    }
     public static boolean isAnagram(String str1, String str2){
            char[] ch1=str1.toCharArray();
            char[] ch2=str2.toCharArray();
